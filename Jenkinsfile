@@ -12,8 +12,10 @@ pipeline {
                 sh 'echo $CHANGE_TARGET'
                 sh 'echo $CHANGE_TITLE'
                 sh 'echo $CHANGE_URL'
+                sh 'echo $CHANGE_AUTHOR'
+                sh 'echo $CHANGE_AUTHOR_DISPLAY_NAME'
+                sh 'echo $CHANGE_AUTHOR_EMAIL'
             }
         }
     }
 }
-
